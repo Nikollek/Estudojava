@@ -1,0 +1,18 @@
+package src.java_io;
+
+import java.io.*;
+
+public class TesteSerializacaoEscrita {
+    public static void main(String[] args) throws IOException, ClassNotFoundException {
+
+        Cliente cliente = new Cliente();
+        cliente.setNome("Nikolle");
+        cliente.setProfissao("DEV");
+        cliente.setCpf("123456789");
+
+        ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream("cliente.bin"));
+        oos.writeObject(cliente);
+        oos.close();
+
+    }
+}
