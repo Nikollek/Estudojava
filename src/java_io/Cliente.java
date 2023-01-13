@@ -10,9 +10,8 @@ import java.io.Serializable;
  */
 
 
-public class Cliente implements Serializable {
+public class Cliente{
 
-	private static final long serialVersionUID = 698573281267446314l;
 	private String nome;
 	private String cpf;
 	private String profissao;

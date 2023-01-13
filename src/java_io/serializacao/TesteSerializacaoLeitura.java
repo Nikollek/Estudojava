@@ -1,4 +1,6 @@
-package src.java_io;
+package src.java_io.serializacao;
+
+import src.java_io.Cliente;
 
 import java.io.*;
 
@@ -10,6 +12,7 @@ public class TesteSerializacaoLeitura {
         ois.close();
         System.out.println(cliente.getNome());
         System.out.println(cliente.getCpf());
+        System.out.println(cliente.getProfissao());
 
     }
 }

@@ -1,4 +1,4 @@
-package src.java_io;
+package src.java_io.serializacao;
 
 import java.io.*;
 
