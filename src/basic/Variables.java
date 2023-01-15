@@ -36,6 +36,12 @@ public class Variables {
         System.out.print("Divide must be divided ");
         System.out.println(divider2);
 
+        //Conversion
+
+        double money = 1200.34;
+        int realMoney = (int)money;
+        System.out.println("price in integer' " + realMoney);
+
 
     }
 }
