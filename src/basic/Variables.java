@@ -40,7 +40,7 @@ public class Variables {
 
         double money = 1200.34;
         int realMoney = (int)money;
-        System.out.println("price in integer' " + realMoney);
+        System.out.println("price in integer " + realMoney);
 
 
     }
