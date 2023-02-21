@@ -12,4 +12,6 @@ Java basic
  - Hello World
  - Variaveis
  - If e Else
+ - boolean
+ - Switch case
 
